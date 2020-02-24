@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { Fragment, useContext, useEffect } from 'react';
 import { ThemeContext } from './ContextComponent';
 
 function Toolbar({...props}) {
@@ -10,8 +10,6 @@ function Toolbar({...props}) {
 }
 
 function ThemeButton() {
-
-  // const theme = useContext(ThemeContext);
   
   return (
     <ThemeContext.Consumer>
