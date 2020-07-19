@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cra-template": "1.0.2",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
+    "cra-template": "latest",
+    "node-sass": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
